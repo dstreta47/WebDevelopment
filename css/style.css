@@ -1,9 +1,32 @@
+/* Tag selectors----------*/
+
 body {
     background-color: rgb(238, 229, 189);
-    }
-    hr{
+     }
+hr   {
         width: 5%;
         border-style: dotted none none;
         border-color: grey;
         border-width: 5px;
-    }
+     }
+img:hover {
+    background-color:rgb(127, 170, 56);
+}     
+
+/* Class selectors----------*/    
+
+.grape {
+    background-color: rgb(218, 240, 200);
+    border-radius: 10%;
+        }
+
+.panda {
+    background-color:slategray;
+    border-radius: 50%;
+}
+
+        
+/* Class selectors----------*/    
+#wel{
+    color: darkorange;
+}        
